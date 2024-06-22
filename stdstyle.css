@@ -1,0 +1,27 @@
+.stdbg {
+	width: 100%;
+	height: 500px;
+	padding: 20px;
+}
+
+.stdbg2 {
+	width: 90%;
+	height: 350px;
+	padding: 20px;
+}
+
+.flex {
+	padding-top: 50px;
+}
+
+.stdlist {
+	position: sticky;
+	top: 17%;
+	overflow-y: scroll;
+	height: 80vh;
+	scrollbar-color: rgb(249, 247, 247) orange;
+	scrollbar-width:thin;
+}
+.list-tt>ol>li{
+	list-style-type:lower-roman;
+}

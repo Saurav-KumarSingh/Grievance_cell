@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: sans-serif;
+}
+.front-heading {
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    
+}
+.front-heading-2{
+    position: absolute;
+    right: 2%;
+    text-align: end;
+}
+@media screen and (min-width: 870px) {    
+    .front-image{
+        max-height: 90vh;
+        width: 100vw;
+    }
+    .front-heading {
+        position: absolute;
+        top: 40%;
+        line-height: 30px;
+    }
+    .front-heading-2 {
+        position: absolute;
+        top: 40%;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 870px) {    
+    .front-heading {
+        position: absolute;
+        top: 35%;
+        line-height: 20px;
+    }
+    .front-heading-2 {
+        position: absolute;
+        top: 30%;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 515px) {    
+    .front-heading {
+        position: absolute;
+        top: 25%;
+        line-height: 15px;
+        
+    }
+    .front-heading-2 {
+        position: absolute;
+        top: 25%;
+        line-height: 15px;
+        
+    }
+}
+@media screen and (max-width: 400px) {    
+    .front-heading {
+        position: absolute;
+        top: 25%;
+        line-height:5px;
+    }
+    .front-heading-2 {
+        position: absolute;
+        top: 25%;
+        line-height:5px;
+    }
+}

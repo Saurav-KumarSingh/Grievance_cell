@@ -1,0 +1,50 @@
+*{
+    font-family: sans-serif;
+}
+
+/*  Section  1
+================================================== */
+.section1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://sviet.ac.in/wp-content/uploads/2021/07/25-1.jpg");
+    background-size: cover;
+    padding: 10%;
+   
+}
+
+.section1 h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    float: right;
+    margin-top: 18%;
+    margin-right: -8%;
+    border-bottom: 5px solid  #f69134;
+}
+.section1 p{
+    color: white;
+    float: right;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 28%;
+    margin-right: -28%;
+}
+.content2{
+    margin-top: 8%;
+   
+ }
+.image1{
+   margin-left: 9%;
+   margin-top:12%;
+    width: 40vw;
+}
+.image2{
+    margin-left: 5%;
+    margin-top: 30%;
+     width: 40vw;
+ }
+ .content1{
+    margin-top: 13%;
+    margin-left: 5%;
+ }
